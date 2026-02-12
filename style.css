@@ -3,9 +3,9 @@ h1{
     color: rgb(255, 0, 0)
 }
 body{
-   background-image: url(zaszlo.jpg);
+   /* background-image: url(zaszlo.jpg);
    background-size: cover;
-   background-position: ;
+   background-position: ; */
 
 }
 p{
@@ -21,4 +21,21 @@ h2{
 }
 body{
     background-color: #3d5fcf
+}
+
+#ujkori{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 230%;
+    font-style: italic;
+    text-align: justify; /* Új dolgok */
+    margin: 20px 100px 20px 100px;
+    /* font-variant: small-caps;   kiskapitális */
+    line-height: 150%;
+    /* text-transform: lowercase;  /* mindenkisbetű */
+    /* text-transform: capitalize; */ */
+    text-transform: uppercase;
+
+}
+#NOB{
+    text-decoration: underline overline ; /* aláhúzások */
 }
