@@ -21,9 +21,9 @@ h2{
 }
 body{
     background-color: #3d5fcf
-}
+} 
 
-#ujkori{
+/*  #ujkori{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 230%;
     font-style: italic;
@@ -32,10 +32,40 @@ body{
     /* font-variant: small-caps;   kiskapitális */
     line-height: 150%;
     /* text-transform: lowercase;  /* mindenkisbetű */
-    /* text-transform: capitalize; */ */
-    text-transform: uppercase;
+    /* text-transform: capitalize; */ 
+    
 
-}
+} 
 #NOB{
     text-decoration: underline overline ; /* aláhúzások */
+}
+
+P{
+    font-family: 'Times New Roman', Times, serif;
+    /* text-align: justify;  */
+    color: rgb(24, 24, 94);
+    line-height: 1.5;
+    margin: 20px 100px 20px 100px;
+    background-color: white;
+    text-indent: 20px; /* r behúzása */
+}
+li{
+    list-style: url(logo.png);
+}
+#bejarat{
+    height: 200px;
+    float: right;
+    border: 5px;
+
+}
+#doboz{
+    border: 8px solid #ffffff;
+    padding: 40px;
+    width: 250px;
+    height: 200px;
+    background-color: black;
+
+}
+.bekezdes{
+    text-transform: uppercase;
 }
